@@ -64,5 +64,7 @@ func InitializeTaskQueue() {
 		taskQueue := new(TaskQueue)
 
 		taskQueue.Heap = heap
+
+		taskqueue = taskQueue
 	}
 }
